@@ -1,0 +1,19 @@
+FROM node:20-slim
+
+WORKDIR /app
+
+# Fix SSL crypto issue
+RUN npm config set strict-ssl false
+
+COPY package*.json ./
+
+# Use clean install instead of install
+RUN npm ci --omit=dev
+
+COPY . .
+
+ENV PORT=5477
+
+EXPOSE 5477
+
+CMD ["node", "index.js"]
