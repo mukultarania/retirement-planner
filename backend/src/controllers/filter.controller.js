@@ -1,4 +1,4 @@
-const serclvice = require("../services/filter.service");
+const service = require("../services/filter.service");
 
 const { filterSchema } = require("../validators/filter.validator");
 
