@@ -2,10 +2,34 @@
 
 A full-stack retirement planning app with transaction management, returns (NPS/index), performance views, and optional AI suggestions (Groq).
 
+## 🔮 Future Scope
+
+In future versions, the platform can be integrated directly with users’ bank accounts
+(via secure, consent-based APIs).
+
+Planned capabilities:
+
+• Automatic transaction syncing from bank accounts  
+• Detection of retirement-related investments  
+• Smart tagging of savings & pension contributions  
+• Auto-enrollment into retirement planning journeys (opt-in only)  
+• Real-time retirement corpus tracking  
+
+If a user opts into a retirement plan, the system can continuously track relevant
+transactions and dynamically adjust projections, recommendations, and performance views.
+
 ## Stack
 
 - **Frontend:** React 19, Vite 7, TypeScript, Tailwind CSS 4, React Router, Recharts, Axios
 - **Backend:** Node.js, Express 5, Mongoose, Zod
+
+## Live Deployment
+
+- **Frontend:**
+https://retirement-planner-one.vercel.app/
+
+- **Backend:**
+https://retirement-planner-3kfa.onrender.com
 
 ## Prerequisites
 
